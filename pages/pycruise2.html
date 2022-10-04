@@ -10,29 +10,99 @@
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <h1>PyCruise 2.0</h1>
         <nav>
             <a href="../index.html">Home</a>
         </nav>
-    </header>
+    </header> -->
     <main>
-        <div>
-            <img src="../images/pycruise2.png" alt="pycrusie 2 image">
-            <p>Pycruise is a desktop application written in Python using the PyQt6 library</p>
-            <section>
-                <h2>Features</h2>
-
-                <h3>Launch</h3>
-                <img src="../images/launch.png" alt="launch button">
-                <p>The launch button goes through the list of applications and websites and opens them using their executable file</p>
-                <p>If the item is a website it will open it in the default browser using Python's library, webbrowser</p>
-                <p>if the item is an application it will open it using the os library which executes commands based on the operating system</p>
-
-                <h3>Create New Modes</h3>
-                <img src="../images/create_mode.png" alt="create new mode">
+        <nav>
+            <span class="name">
+              <h1 class="name">
+                <a class="dennis_anchor" href="/">
+                  <span>
+                    <p class="dennis">Dennis DeVries</p>
+                  </span>
+                </a>
+      
+              </h1>
+              <a class="projects_anchor">
+                Projects
+              </a>
+              <a class="code_anchor">
+                Code
+              </a>
+              <a class="linkedin">
+                LinkedIn
+              </a>
+            </span>
+          </nav>
+        <div class="wrapper">
+            <div class="pycruise_home">
+                <img src="../images/pycruise2.png" alt="pycrusie 2 image">
+                <p>Pycruise is a desktop application written in Python using the PyQt6 library</p>
+            </div>
+            <section class="features">
+                <h2 class="title">Features</h2>
+                <div class="launch">
+                    <div class="launch-heading">
+                        <h3>Launch</h3>
+                        <img src="../images/launch.png" alt="launch button">
+                    </div>
+                    <ul class="launch-list">
+                        <p>The launch button goes through the list of applications and websites and opens them using
+                            their executable file</p>
+                        <p>If the item is a website it will open it in the default browser using Python's library,
+                            webbrowser
+                        </p>
+                        <p>if the item is an application it will open it using the os library which executes commands
+                            based on the operating system</p>
+                    </ul>
+                </div>
+                <div class="edit">
+                    <div class="edit_heading">
+                        <h3>Edit</h3>
+                        <img src="../images/edit.png" alt="edit">
+                    </div>
+                    <ul class="edit_list">
+                        <p>Pressing the edit button makes two entry fields appear on the bottom of the app, add and
+                            delete</p>
+                        <p>In the add application entry field the user can type in an application name that is
+                            executable on their operating system or a website. Hitting "return" will add it to the list.
+                        </p>
+                        <p>In the delete application entry field the user can type in an application or website to
+                            delete from their list. Pressing "return" will delete the application from the list.</p>
+                    </ul>
+                </div>
+                <div class="new_mode">
+                    <div class="new_mode_heading">
+                        <h3>Create New Modes</h3>
+                        <img src="../images/create_mode.png" alt="create new mode">
+                    </div>
+                    <ul class="mode_list">
+                        <p>Pressing the create new mode button, makes an entry field appear where the user types in the
+                            name of a new mode</p>
+                        <p>Upon pressing "return" a new tab is made with the name of the given mode</p>
+                        <p>Each tab can hold its own set of apps and websites to launch upon clicking the launch button
+                        </p>
+                    </ul>
+                </div>
+                <div class="testing">
+                    <div class="testing_heading">
+                        <h3>Testing</h3>
+                        <img src="../images/pycruise2_testing.png" alt="create new mode">
+                    </div>
+                    <ul class="testing_list">
+                        <p>In order to make automated tests for the development of our app we used pytest-qt</p>
+                        <p>Pytest-qt uses a bot to simulate button clicks, keyboard events, and text field entry</p>
+                    </ul>
+                </div>
             </section>
         </div>
+        <footer>
+            &copy; 2022 Dennis DeVries
+        </footer>
     </main>
 </body>
 

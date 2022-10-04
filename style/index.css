@@ -25,14 +25,59 @@ body {
   justify-content: center;
   margin: auto;
   align-items: center;
-  background-color: black;
+  background-color: rgba(15, 15, 15, 0.95);
+  
 }
 
 main {
   color: white;
   z-index: 99;
   width: 100%;
-  
+}
+
+nav {
+  position: fixed;
+  width: 90%;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  height: 120px;
+}
+
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:active{text-decoration: none;}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dennis_anchor{
+  padding-right: 20px;
+}
+
+.projects_anchor{
+  font-size: large;
+  padding-right: 20px;
+}
+
+.code_anchor {
+  font-size: large;
+  padding-right: 20px;
+}
+
+.linkedin {
+  font-size: large;
+}
+
+.dennis {
+  color: white;
+}
+
+.content {
+  padding-top: 100px;
 }
 
 .about {
@@ -67,7 +112,7 @@ span a {
 
 
 header {
-  background: var(--dark-bg);
+  /* background: var(--dark-bg); */
   text-align: center;
   font-size: 1.5rem;
   padding: 0rem;
@@ -90,4 +135,12 @@ blockquote {
   margin-bottom: var(--spacing);
 }
 
+footer {
+  color: white;
+  display: flex;
+  font-size: large;
+  justify-content: center;
+  height: 75px;
+  align-items: center;
+}
 
