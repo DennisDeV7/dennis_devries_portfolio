@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="style/index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
+  <script type="module" src="/main.js"></script>
+
 </head>
 
 <body>
@@ -14,10 +16,11 @@
 
   <main>
     <nav>
-      <span class="name">
+      <span class="span_name">
         <h1 class="name">
           <a class="dennis_anchor" href="/">
             <span>
+              <img src="images/computer.svg" alt="computer" width="100">
               <p class="dennis">Dennis DeVries</p>
             </span>
           </a>
@@ -34,10 +37,10 @@
         </a>
       </span>
     </nav>
-    <div class="content">
-      <header>
+    <div class="content" id="content">
+      <header class="header">
         <h1>Dennis DeVries</h1>
-        <p>Software Developer</p>
+        <span class="title" id="title"></span>
       </header>
 
       <section class="about">
@@ -72,11 +75,10 @@
     </div>
 
 
-    <footer>
-      &copy; 2022 Dennis DeVries
-    </footer>
   </main>
-  <script type="module" src="/main.js"></script>
+  <footer>
+    &copy; 2022 Dennis DeVries
+  </footer>
 </body>
 
 </html>
