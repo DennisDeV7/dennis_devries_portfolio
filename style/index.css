@@ -21,18 +21,15 @@
 
 body {
   width: 90%;
-  display: flex;
-  justify-content: center;
   margin: auto;
-  align-items: center;
   background-color: rgba(15, 15, 15, 0.95);
-  
 }
 
 main {
   color: white;
   z-index: 99;
-  width: 100%;
+  width: 100%;  
+  display: flex;
 }
 
 nav {
@@ -41,7 +38,11 @@ nav {
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   height: 120px;
+  display: flex;
+  justify-content: center;
 }
+
+
 
 a:link{text-decoration: none;}
 a:visited{text-decoration: none;}
@@ -49,6 +50,12 @@ a:hover{text-decoration: none;}
 a:active{text-decoration: none;}
 
 .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.span_name {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,38 +80,36 @@ a:active{text-decoration: none;}
 }
 
 .dennis {
+  display: flex;
   color: white;
+  float: right;
+  padding-top: 35px;
 }
 
 .content {
-  padding-top: 100px;
+  justify-content: center;
+  margin: auto;
 }
 
 .about {
-  width: 600px;
-  text-align: center;
-  margin:auto;
+  width: 900px;
 }
 
-
-
-h1, h2 {
+h1 {
   font-family: elevon, sans-serif;
   font-weight: 700;
   font-style: normal;
-  text-align: center;
 }
 
-
-span {
+.projects {
+  width: 900px;
   display: flex;
   justify-content: space-between;
   overflow-x: auto;
   overflow-y: hidden;
-  
 } 
 
-span a {
+.projects a {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 50px;
@@ -112,28 +117,27 @@ span a {
 
 
 header {
-  /* background: var(--dark-bg); */
-  text-align: center;
   font-size: 1.5rem;
-  padding: 0rem;
-  /* width: 1000px; */
-  /* margin:auto; */
- 
+  height: 100vh;
+  padding-top: 45vh;
 }
 
+.header {
+  position: relative;
+}
+
+.header .title {
+  position: absolute;
+}
+
+
 section {
-  padding: 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
   align-items: center; 
   justify-content: center;
 }
 
-blockquote {
-  margin: 0;
-  padding: 0;
-  margin-bottom: var(--spacing);
-}
 
 footer {
   color: white;
