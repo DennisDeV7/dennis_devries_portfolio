@@ -6,7 +6,7 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <link rel="stylesheet" href="style/index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <title>Dennis DeVries</title>
   <script type="module" src="/main.js"></script>
 
 </head>
@@ -15,6 +15,61 @@
   <!-- <canvas id="bg"></canvas> -->
 
   <main>
+    <div class="content">
+      <header class="header">
+        <h1>Dennis DeVries</h1>
+        <span class="title" id="title"></span>
+
+      </header>
+
+      <div class="projects" id="projects">
+        <h2>Projects
+          <hr>
+        </h2>
+        <div class="project_images">
+          <div>
+            <a href="pages/pycruise2.html">
+              <img src="images/pycruise2_logo.png" alt="pycrusie 2 image" width="300">
+            </a>
+            <p>A convenience desktop application that <br>opens chosen apps and websites at once</p>
+            <p>Written in Python3</p>
+          </div>
+          <div>
+            <a href="pages/pycruise1.html">
+              <img src="images/pycruise1.png" alt="pycrusie image" width="690">
+            </a>
+            <p>A convenience command line interface app<br> that opens chosen apps and websites at one time</p>
+          </div>
+          <div>
+            <p>Music Locator</p>
+            <a href="https://music-locator.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <img src="/images/music_locator.png" alt="music locator image" width="523">
+            </a>
+            <p>Music Locator is a web application <br> that displays live music events in a <br> city of your choosing using Ticketmaster API</p>
+            <p>Used: React, Express, JavaScript, HTML, CSS, MongoDB</p>
+          </div>
+          <div>
+            <p>Project Steel</p>
+            <a href="https://sharp-research.github.io/project-steel/index.html" target="_blank"
+              rel="noopener noreferrer">
+              <img src="/images/project_steel.png" alt="project-steel image" width="475">
+            </a>
+            <p>A website that provides a quick way <br> to display calories burned per <br> exercise performed</p>
+            <p>Built with: JavaScript, HTML, CSS, Chart.js</p>
+          </div>
+        </div>
+      </div>
+
+      <section class="about">
+        <div class="about-me">
+          <h2>About Me<hr></h2>
+          <p>
+            I'm Dennis, I currently live in Raeford, NC and am looking for a software development position after graduating from Code Fellows. I am a software developer with knowledge in Python, JavaScript, HTML, and CSS. 
+          </p>
+          <p>In my free time I enjoy working out and practicing my many other hobbies. These include woodworking, 3d printing, drawing, biking, and skiing to name a few. </p>
+        </div>
+      </section>
+    </div>
     <nav>
       <span class="span_name">
         <h1 class="name">
@@ -26,59 +81,25 @@
           </a>
 
         </h1>
-        <a class="projects_anchor">
+        <a class="projects_anchor" href="#projects">
           Projects
         </a>
-        <a class="code_anchor">
-          Code
+        <a class="code_anchor" href="https://github.com/DennisDeV7" target="_blank"
+        rel="noopener noreferrer">
+          <img src="images/github.svg" alt="Github logo" width="50" >
+          
         </a>
-        <a class="linkedin">
-          LinkedIn
+        <a class="linkedin" href="https://www.linkedin.com/in/dennis-devries" target="_blank" rel="noopener noreferrer">
+          <img src="images/linkedin.svg" alt="LinkedIn Logo" width="40">
         </a>
       </span>
     </nav>
-    <div class="content" id="content">
-      <header class="header">
-        <h1>Dennis DeVries</h1>
-        <span class="title" id="title"></span>
-      </header>
-
-      <div class="projects">
-        <h2>Projects<hr></h2>
-        <div class="project_images">
-          <a href="pages/pycruise2.html">
-            <img src="images/pycruise2_logo.png" alt="pycrusie 2 image" width="300">
-          </a>
-          <a href="pages/pycruise1.html">
-            <img src="images/pycruise1.png" alt="pycrusie image" width="690">
-          </a>
-          <a href="https://music-locator.netlify.app/" target="_blank" rel="noopener noreferrer">
-            <img src="/images/music_locator.png" alt="music locator image" width="523">
-          </a>
-          <a href="https://sharp-research.github.io/project-steel/index.html" target="_blank" rel="noopener noreferrer">
-            <img src="/images/project_steel.png" alt="project-steel image" width="475">
-          </a>
-        </div>
-      </div>
-
-      <section class="about">
-        <div class="about-me">
-          <h2>About Me</h2>
-          <p>
-            I am a software developer specializing in Python and JavaScript. I started getting by getting a mechanical
-            engineering degree and immediately after became a leader in the United States Army. I got interested in
-            automation and started learning how I can create something to do that. This is what lead me to software
-            development!
-          </p>
-        </div>
-      </section>
-    </div>
-
 
   </main>
   <footer>
     &copy; 2022 Dennis DeVries
   </footer>
+
 </body>
 
 </html>
