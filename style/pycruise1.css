@@ -1,34 +1,111 @@
+:root {
+  --dark-bg: rgba(31, 28, 28, 0.95);
+  --spacing: 20px;
+
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 body {
-    background-color: black;
+  width: 90%;
+  margin: auto;
+  background-color: rgba(39, 36, 36, 0.95);
 }
 
 main {
-    color: white;
-    width: 100%;
-  }
-
-header {
- 
-  font-size: 1.5rem;
-  padding: 0rem;
-  height: 100px;
   color: white;
-  text-align: center;
-}
-
-header h1 {
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 300px;
-    margin: 0 auto;
-    padding-top: 30px;
+  z-index: 99;
+  width: 100%;  
+  display: flex;
+  /* border: 4px solid blue; */
 }
 
 nav {
-    display: flex;
-    margin-top: 50px;
-    padding-right: 200px;
-    float: right;
+  position: fixed;
+  width: 90%;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:active{text-decoration: none;}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.span_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dennis_anchor{
+  padding-right: 20px;
+}
+
+.projects_anchor{
+  font-size: large;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.code_anchor {
+  font-size: large;
+  padding-right: 20px;
+}
+
+.linkedin {
+  font-size: large;
+}
+
+.dennis {
+  display: flex;
+  color: white;
+  float: right;
+  padding-top: 35px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  /* border: 4px solid blue; */
+}
+
+.project_item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+  /* border: 4px solid white; */
+}
+
+.project_item p {
+  font-size: x-large;
+}
+
+footer {
+  color: white;
+  display: flex;
+  font-size: large;
+  justify-content: center;
+  height: 75px;
+  align-items: center;
 }
