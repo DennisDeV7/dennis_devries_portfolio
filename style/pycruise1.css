@@ -90,15 +90,27 @@ a {
 
 .project_item {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  margin: auto;
   flex-direction: column;
   padding-top: 30vh;
   padding-bottom: 30vh;
   /* border: 4px solid white; */
 }
 
+.project_item img {
+  width: 80%;
+  margin: auto;
+}
+
 .project_item p {
   font-size: x-large;
+  text-align: center;
+}
+
+#select {
+  width: 100%;
+  border: 4px solid purple;
 }
 
 footer {
