@@ -192,37 +192,7 @@ footer {
     align-items: center;
 }
 
-@media screen and (max-width: 1600px){
-    .feature {
-        width: 90%;
-        display: flex;
-        height: auto;
-        flex-direction: column;
-        justify-content: center;
-        /* margin: auto; */
-    }
-    .feature_heading {
-        width: 80%;
-        margin: auto;
-        padding-right: 0;
-    }
-    .feature_heading img {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        margin: auto;
-    }
-    .feature_list{    
-        display: flex;
-        flex-direction: column;    
-        margin-left: 0;   
-        width: 70%;
-        justify-content: center;     
-    }
-    
-    
-    
-}
+
 
 @media screen and (max-width: 1200px){
     .feature {
