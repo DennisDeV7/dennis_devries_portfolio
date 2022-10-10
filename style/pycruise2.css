@@ -219,43 +219,8 @@ footer {
         width: 70%;
         justify-content: center;     
     }
-    .pycruise_home {
-        width: 90%;
-        /* margin: auto; */
-        /* padding-top: 20vh; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .pycruise_home img {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 20px;
-        margin: auto;
-        width: 50%;
-    }
-    .pycruise_home p {
-        margin: auto;
-        text-align: center;
-        width: 60%;
-    }
-    .names {
-        display: flex;
-        flex-direction: column;
-      }
-    
-      .devries {margin-top: 0; padding-top: 0; margin-bottom: 0;}
     
     
-      .dennis {
-        font-size: 100%;
-        /* margin-top: 33px; */
-        padding-right: 0;
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-bottom: 0;
-        margin-top: 0;
-      }
     
 }
 
@@ -322,6 +287,43 @@ footer {
     }
     .feature_list p {
         margin-bottom: 0;
+    }
+    .names {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .devries {margin-top: 0; padding-top: 0; margin-bottom: 0;}
+    
+    
+      .dennis {
+        font-size: 100%;
+        /* margin-top: 33px; */
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+      .pycruise_home {
+        width: 90%;
+        /* margin: auto; */
+        /* padding-top: 20vh; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pycruise_home img {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        margin: auto;
+        width: 50%;
+    }
+    .pycruise_home p {
+        margin: auto;
+        text-align: center;
+        width: 60%;
     }
     
 }
