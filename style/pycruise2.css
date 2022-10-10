@@ -45,9 +45,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 4px solid white; */
+    height: 100%;
   }
-
   .span_name {
     display: flex;
     justify-content: center;
@@ -57,15 +56,31 @@ nav {
   
   .dennis_anchor{
     padding-right: 20px;
+    height: 100%;
+    align-items: center;
+  }
+  .dennis_anchor span{
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .dennis_anchor span img {
+    padding-right: 10px;
+  }
+
+  .names {
+    display: flex;
+    align-items: center;
   }
   
   .projects_anchor{
-    font-size: large;
+    font-size: 120%;
     padding-right: 20px;
+    text-decoration: none;
   }
   
   .code_anchor {
-    font-size: large;
     padding-right: 20px;
   }
   
@@ -74,37 +89,40 @@ nav {
   }
   
   .dennis {
-    display: flex;
     color: white;
-    float: right;
-    /* align-items: center; */
-    padding-top: 35px;
+    padding-right: 10px; 
+    font-size: 100%;
+  }
+
+  .devries {
+    color: white;
+    font-size: 100%;
   }
 
 .wrapper {
     padding-top: 100px;
     padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
 }
+
+
 
 .pycruise_home {
     width: 90%;
     margin: auto;
-    padding-top: 20vh;
+    padding-top: 10vh;
     display: flex;
     justify-content: center;
 }
 
 .pycruise_home img {
-    /* margin-left: 200px; */
-    /* border: 4px solid white; */
     width: 35vh;   
 }
 
 .pycruise_home p {
-    /* border: 4px solid antiquewhite; */
-    font-size: 3vh;
+    font-size: 150%;
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 40vh;
     margin-left: 10vh;
@@ -201,6 +219,43 @@ footer {
         width: 70%;
         justify-content: center;     
     }
+    .pycruise_home {
+        width: 90%;
+        /* margin: auto; */
+        /* padding-top: 20vh; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pycruise_home img {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        margin: auto;
+        width: 50%;
+    }
+    .pycruise_home p {
+        margin: auto;
+        text-align: center;
+        width: 60%;
+    }
+    .names {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .devries {margin-top: 0; padding-top: 0; margin-bottom: 0;}
+    
+    
+      .dennis {
+        font-size: 100%;
+        /* margin-top: 33px; */
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
     
 }
 

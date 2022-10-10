@@ -47,6 +47,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .span_name {
@@ -57,16 +58,31 @@ a {
 
 .dennis_anchor{
   padding-right: 20px;
+  height: 100%;
+  align-items: center;
+}
+
+.dennis_anchor span{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.dennis_anchor span img {
+  padding-right: 10px;
+}
+.names {
+  display: flex;
+  align-items: center;
 }
 
 .projects_anchor{
-  font-size: large;
+  font-size: 120%;
   padding-right: 20px;
   text-decoration: none;
 }
 
 .code_anchor {
-  font-size: large;
   padding-right: 20px;
 }
 
@@ -75,10 +91,14 @@ a {
 }
 
 .dennis {
-  display: flex;
   color: white;
-  float: right;
-  padding-top: 35px;
+  padding-right: 10px; 
+  font-size: 100%;
+}
+
+.devries {
+  color: white;
+  font-size: 100%;
 }
 
 .content {
@@ -104,7 +124,7 @@ a {
 }
 
 .project_item p {
-  font-size: x-large;
+  font-size: 120%;
   text-align: center;
 }
 
@@ -119,4 +139,24 @@ footer {
   justify-content: center;
   height: 75px;
   align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .names {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .devries {margin-top: 0; padding-top: 0; margin-bottom: 0;}
+
+
+  .dennis {
+    font-size: 100%;
+    /* margin-top: 33px; */
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
 }
